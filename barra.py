@@ -1,7 +1,7 @@
 import streamlit as st
 import time
 
-progress_text = "Operation in progress. Please wait."
+progress_text = "Operació en progres. Espereu, si-us-plau."
 my_bar = st.progress(0, text=progress_text)
 
 for percent_complete in range(100):
